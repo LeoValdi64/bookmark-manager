@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LinkVault - Bookmark Manager
+
+A modern, elegant bookmark manager built with Next.js. Organize, search, and manage your bookmarks efficiently.
+
+## Features
+
+- **Add & Manage Bookmarks**: Save links with title, URL, and description
+- **Organize into Folders**: Create color-coded folders to categorize your bookmarks
+- **Search & Filter**: Quickly find bookmarks with instant search
+- **Import/Export**: Backup and restore your bookmarks as JSON
+- **Persistent Storage**: All data saved locally in your browser
+- **Dark Theme**: Modern, eye-friendly dark interface
+- **Responsive Design**: Works on desktop, tablet, and mobile
+
+## Tech Stack
+
+- **Next.js 15** - React framework
+- **TypeScript** - Type safety
+- **Tailwind CSS v4** - Styling
+- **Lucide React** - Icons
+- **localStorage** - Data persistence
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Add Bookmarks**: Click "Add Bookmark" to save a new link
+2. **Create Folders**: Use the + icon in the sidebar to create folders
+3. **Organize**: Assign bookmarks to folders when adding or editing
+4. **Search**: Use the search bar to filter bookmarks
+5. **Export**: Download your bookmarks as JSON for backup
+6. **Import**: Restore from a previously exported JSON file
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
